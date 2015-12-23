@@ -9,13 +9,16 @@ module.exports = {
   ],
   output: {
       publicPath: '/',
-      filename: 'main.js'
+      filename: 'main.js',
+      path: './src',
+      filename: 'bundle.js',
+      library: 'main'
   },
   debug: true,
   devtool: 'source-map',
   module: {
     loaders: [
-      { 
+      {
         test: /\.js$/,
         include: path.join(__dirname, 'src'),
         loader: 'babel-loader',
