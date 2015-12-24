@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
       pre {
         font-family: arial, sans-serif;
-        font-size: 1em;
+        font-size: .6em;
       }
 
       ul {
@@ -13,6 +15,7 @@
 
       a {
         text-decoration: none;
+        color: grey;
       }
 
       a:before {
@@ -24,3 +27,9 @@
         content: "";
         color: red;
       }
+
+* {
+  background: black;
+  color: white;
+  font-family: Share Tech Mono;
+}
